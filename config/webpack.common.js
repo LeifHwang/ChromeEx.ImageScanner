@@ -43,6 +43,11 @@ const common = {
           },
         ],
       },
+      {
+        test: /\.ts$/,
+        use: "ts-loader",
+        include: [PATHS.src],
+      },
     ],
   },
   plugins: [
@@ -62,6 +67,9 @@ const common = {
       filename: '[name].css',
     }),
   ],
+  resolve: {
+    extensions: [".ts", ".js"],
+  },
 };
 
 module.exports = common;

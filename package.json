@@ -1,6 +1,6 @@
 {
   "name": "image_scanner",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "My Chrome Extension",
   "private": true,
   "scripts": {
@@ -8,11 +8,14 @@
     "build": "node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js"
   },
   "devDependencies": {
+    "@types/chrome": "0.0.262",
     "copy-webpack-plugin": "^6.4.1",
     "css-loader": "^6.10.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^0.10.1",
     "size-plugin": "^2.0.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
     "webpack": "^5.90.3",
     "webpack-cli": "^4.10.0",
     "webpack-merge": "^5.10.0"
