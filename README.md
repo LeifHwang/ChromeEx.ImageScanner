@@ -1,11 +1,11 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Image_scanner
 
-My Chrome Extension
+Image_scanner
 
 ## Features
 
-- Feature 1
-- Feature 2
+- List all image, can navigate pre of next using the [ArrowLeft] and [ArrowRight]
+- Can zoom by wheel
 
 ## Install
 
